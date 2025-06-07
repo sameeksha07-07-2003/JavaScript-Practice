@@ -50,3 +50,27 @@ console.log(typeof myFunction)
 // Example (Python): age = 25 Examples: Python, JavaScript, Ruby, PHP, Lua.
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//Stack (primitive) (copy milta) , Heap (non primitive) (reference milti)
+
+let myYoutubeName = "SameekshaBarhaiya"
+let anotherName = myYoutubeName //copy is created
+
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName)//SameekshaBarhaiya
+console.log(anotherName) //chaiaurcode
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
